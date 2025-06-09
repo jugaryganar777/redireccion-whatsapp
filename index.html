@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Redirigiendo a WhatsApp...</title>
+  <style>
+    body {
+      background-color: #25D366; /* Color verde WhatsApp */
+      color: white;
+      font-family: Arial, sans-serif;
+      text-align: center;
+      padding-top: 20%;
+    }
+    .whatsapp-icon {
+      font-size: 80px;
+      margin-bottom: 20px;
+    }
+    .message {
+      font-size: 24px;
+    }
+    @keyframes blink {
+      0% { opacity: 1; }
+      50% { opacity: 0.6; }
+      100% { opacity: 1; }
+    }
+    .blinking {
+      animation: blink 1s infinite;
+    }
+  </style>
+  <script>
+    // Redirige después de 2 segundos (2000 milisegundos)
+    setTimeout(function() {
+      window.location.href = "https://wa.me/5491158550875?text=Quiero%20jugar%20con%20mi%20bon0%20de%20bienvenida";
+    }, 2000);
+  </script>
+</head>
+<body>
+  <div class="whatsapp-icon">📱</div>
+  <div class="message blinking">Redireccionando a WhatsApp...</div>
+</body>
+</html>
